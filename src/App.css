@@ -1,0 +1,31 @@
+#header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: rgb(1, 59, 50);
+  color: white;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: xx-large;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 90%;
+  margin: 80px auto;
+}
